@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #050816;
+  color: white;
+}
+
+.section {
+  min-height: 100vh;
+  padding: 100px 2rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.box {
+  border: 1px solid #38bdf8;
+  padding: 2rem;
+  border-radius: 16px;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.skill-box {
+  border: 1px solid #38bdf8;
+  padding: 1.2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  background: rgba(0,0,0,.4);
+  padding: 10px 20px;
+  border-radius: 999px;
+}
+
+.preloader {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  z-index: 9999;
+}
